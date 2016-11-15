@@ -18,7 +18,10 @@ package com.Anderson.example.games.tanc;
 
 
 import android.content.res.AssetFileDescriptor;
+import android.content.res.ColorStateList;
 import android.graphics.Color;
+import android.graphics.PorterDuff;
+import android.graphics.drawable.Drawable;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.CountDownTimer;
@@ -249,7 +252,7 @@ public class GameplayFragment extends Fragment implements OnClickListener {
             Log.d("I", tv.getText().toString());
             tv.setSelected(true);
             SetColor();
-            tv.setBackgroundColor(Color.GREEN);
+            tv.getBackground().setColorFilter(Color.GREEN, PorterDuff.Mode.MULTIPLY);
             break;
         case R.id.ok_score_button:
            // mListener.onEnteredScore(mRequestedScore);
@@ -273,13 +276,14 @@ public class GameplayFragment extends Fragment implements OnClickListener {
     void SetColor(){
 
         Button b1 = (Button) getView().findViewById(R.id.option_button_1);
-        Button b2 = (Button) getView().findViewById(R.id.option_button_1);
-        Button b3 = (Button) getView().findViewById(R.id.option_button_1);
-        Button b4 = (Button) getView().findViewById(R.id.option_button_1);
-        b1.setBackgroundColor(Color.WHITE);
-        b2.setBackgroundColor(Color.WHITE);
-        b3.setBackgroundColor(Color.WHITE);
-        b4.setBackgroundColor(Color.WHITE);
+        Button b2 = (Button) getView().findViewById(R.id.option_button_2);
+        Button b3 = (Button) getView().findViewById(R.id.option_button_3);
+        Button b4 = (Button) getView().findViewById(R.id.option_button_4);
+        b1.getBackground().setColorFilter(Color.WHITE, PorterDuff.Mode.MULTIPLY);
+        b2.getBackground().setColorFilter(Color.WHITE, PorterDuff.Mode.MULTIPLY);
+        b3.getBackground().setColorFilter(Color.WHITE, PorterDuff.Mode.MULTIPLY);
+        b4.getBackground().setColorFilter(Color.WHITE, PorterDuff.Mode.MULTIPLY);
+
 
     }
 

@@ -1,0 +1,87 @@
+{
+	"parameters": [
+		"timer = 30"
+	],
+	"questions": [
+		{
+			"name": "Question1",
+			"description": "Quanto é 2+2?",
+			"answer": "4",
+			"choice1": "3",
+			"choice2": "6 madcode package",
+			"choice3": "2"
+		},
+		{
+			"name": "Question2",
+			"description": "Quanto é 7-1?",
+			"answer": "6",
+			"choice1": "5",
+			"choice2": "2 madcode package",
+			"choice3": "10"
+		},
+		{
+			"name": "Question3 ",
+			"description": "Quanto é 2+(2*3)?",
+			"answer": "8",
+			"choice1": "12",
+			"choice2": "16",
+			"choice3": "7"
+		},
+		{
+			"name": "Question4",
+			"description": "Quanto é (13-5)-2?",
+			"answer": "6",
+			"choice1": "5",
+			"choice2": "7",
+			"choice3": "4"
+		},
+		{
+			"name": "Question5",
+			"description": "Quanto é 2x2x3?",
+			"answer": "12",
+			"choice1": "14",
+			"choice2": "16",
+			"choice3": "10"
+		},
+		{
+			"name": "Question6",
+			"description": "Quanto é a raiz de 25?",
+			"answer": "5",
+			"choice1": "4",
+			"choice2": "6",
+			"choice3": "7"
+		},
+		{
+			"name": "Question7",
+			"description": "Quanto é a 3x3-10?",
+			"answer": "-1",
+			"choice1": "1",
+			"choice2": "0",
+			"choice3": "-10"
+		},
+		{
+			"name": "Question8",
+			"description": "Quanto é 10/5+5?",
+			"answer": "7",
+			"choice1": "5",
+			"choice2": "6",
+			"choice3": "10"
+		},
+		{
+			"name": "Question9",
+			"description": "Quanto é 16+16-5-15*2?",
+			"answer": "24",
+			"choice1": "20",
+			"choice2": "28",
+			"choice3": "30"
+		},
+		{
+			"name": "Question10",
+			"description": "Quanto é 2x2/2+5/7-1?",
+			"answer": "0",
+			"choice1": "1",
+			"choice2": "-1",
+			"choice3": "invalido"
+		}
+	]
+}=

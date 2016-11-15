@@ -20,7 +20,7 @@ Change the package name to your own, in the AndroidManifest.xml file.
 # 1.3 Create Tests
 
 Use the template.json at the root folder, editing the fields, with any text (if the text are long, its advised to test them has they can be cropped in the app), take care to not break the file structure  
-Convert the new file to a Base64 format, using any kind of software or webpage, e.G: base64encode.org  
+Convert the new file to a Base64 format, using any kind of software or webpage, e.G: http://www.base64encode.org  
 Repeat has many times you need
 
 # 1.4 Edit Extra Assets (Sounds)

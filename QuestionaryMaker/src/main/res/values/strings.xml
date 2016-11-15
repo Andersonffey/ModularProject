@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+   Copyright (C) 2013 Google Inc.
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+-->
+
+<resources>
+    <string name="app_name">Questionary Maker</string>
+    <string name="app_id">346933158067</string>
+    <string name="list_description">Choose a Test</string>
+    <string name="start_game">Start</string>
+    <string name="title_activity_main">Questionary Maker</string>
+    <string name="signed_out_greeting">Hello, anonymous user (not signed in)!</string>
+    <string name="achievements_not_available">Please sign in to view achievements.</string>
+    <string name="leaderboards_not_available">Please sign in to view leaderboards.</string>
+    <string name="easy_mode_explanation">Thank you for responding the questions, please try again!</string>
+    <string name="achievement_you_got_in">CgkIs8HPtowKEAIQAQ</string>
+    <string name="achievement_your_first_test">CgkIs8HPtowKEAIQAg</string>
+    <string name="achievement_high_five">CgkIs8HPtowKEAIQAw</string>
+    <string name="achievement_genius">CgkIs8HPtowKEAIQBA</string>
+    <string name="achievement_hungry_student">CgkIs8HPtowKEAIQBQ</string>
+    <string name="leaderboard_test_ladder">CgkIs8HPtowKEAIQBg</string>
+    <string name="achievement">Achievement</string>
+    <string name="your_progress_will_be_uploaded">Your existing achievements and score will be uploaded shortly.</string>
+    <string name="what_score_do_you_deserve">What score do you think you deserve? huasuhsa haushuasu huashuasu hasuhasu haushuas hashuasuha gua?</string>
+    <string name="initial_input">0000</string>
+    <string name="clear">Clear</string>
+    <string name="confirm">Confirm</string>
+    <string name="choose_difficulty">Choose a difficulty to play:</string>
+    <string name="easy">Easy</string>
+    <string name="hard">Hard</string>
+    <string name="see_your_progress">See your progress:</string>
+    <string name="show_achievements">Show Achievements</string>
+    <string name="show_leaderboards">Show Leaderboards</string>
+    <string name="sign_in_why">Sign in with Google to share your scores and achievements with your friends.</string>
+    <string name="you_are_signed_in">You are signed in with Google.</string>
+    <string name="sign_out">Sign out</string>
+    <string name="you_win">Your score is:</string>
+    <string name="sign_in_to_upload_this_score">Sign in now to upload this score, save your achievements and share your progress with friends.</string>
+    <string name="signin_other_error">There was an issue with sign in.  Please try again later.</string>
+</resources>

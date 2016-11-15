@@ -103,12 +103,14 @@ public class ListFragment extends Fragment implements View.OnClickListener, Adap
             if (m_Filename != null && (null != m_JobList)) {
 
                 for (int i = 0; i < m_Filename.length; i++) {
-                    Log.d("I", "2");
+
+
                     String[] temp = m_Filename[i].split("-");
-                    Log.d("I", temp[3]);
-                    m_LevelNames.add(m_Filename[i]);
-                    m_JobList.add(temp[0]);
-                    m_JobList2.add("Author: " + temp[1]  + " Topic: " + temp[2] + " Mode: " + temp[3].substring(0, temp[3].length()-5));
+                    if(temp.length == 4) {
+                        m_LevelNames.add(m_Filename[i]);
+                        m_JobList.add(temp[0]);
+                        m_JobList2.add("Author: " + temp[1] + " Topic: " + temp[2] + " Mode: " + temp[3].substring(0, temp[3].length() - 5));
+                    }
                 }
 
                 if ((m_Filename.length == 0) || (null == m_Filename)) {

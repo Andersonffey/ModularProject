@@ -18,6 +18,7 @@ package com.Anderson.example.games.tanc;
 
 
 import android.content.res.AssetFileDescriptor;
+import android.graphics.Color;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.CountDownTimer;
@@ -179,6 +180,8 @@ public class GameplayFragment extends Fragment implements OnClickListener {
         button.setText(mQuestionary.mQuestions[mCurrentQuestion].mAnswers.get(3));
     }
 
+
+
     public void setListener(Listener l) {
         mListener = l;
     }
@@ -245,6 +248,8 @@ public class GameplayFragment extends Fragment implements OnClickListener {
             mCurrentAnswer = tv.getText().toString();
             Log.d("I", tv.getText().toString());
             tv.setSelected(true);
+            SetColor();
+            tv.setBackgroundColor(Color.GREEN);
             break;
         case R.id.ok_score_button:
            // mListener.onEnteredScore(mRequestedScore);
@@ -257,13 +262,25 @@ public class GameplayFragment extends Fragment implements OnClickListener {
                     TextView scoreInput = ((TextView) getActivity().findViewById(R.id.score_text));
                     if (scoreInput != null) scoreInput.setText("Score: "+mRequestedScore);
                 }
-
             }
             else if(mCurrentAnswer != "") {
                 updateUi();
             }
             break;
         }
+    }
+
+    void SetColor(){
+
+        Button b1 = (Button) getView().findViewById(R.id.option_button_1);
+        Button b2 = (Button) getView().findViewById(R.id.option_button_1);
+        Button b3 = (Button) getView().findViewById(R.id.option_button_1);
+        Button b4 = (Button) getView().findViewById(R.id.option_button_1);
+        b1.setBackgroundColor(Color.WHITE);
+        b2.setBackgroundColor(Color.WHITE);
+        b3.setBackgroundColor(Color.WHITE);
+        b4.setBackgroundColor(Color.WHITE);
+
     }
 
 
